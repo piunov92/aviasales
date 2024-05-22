@@ -1,5 +1,12 @@
+import Header from '../components/Header/Header'
+import styles from './Home.module.scss'
+
 function Home() {
-  return <h1>aviasales</h1>
+  return (
+    <div className={styles.home}>
+      <Header />
+    </div>
+  )
 }
 
 export default Home
