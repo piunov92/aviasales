@@ -1,0 +1,37 @@
+.sort-group {
+  display: inline-flex;
+  overflow: hidden;
+  flex: 1 1 auto;
+}
+.sort-group__item {
+  display: inline-flex;
+  flex: 1 1 auto;
+}
+.sort-group input[type='radio'] {
+  display: none;
+}
+.sort-group label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  cursor: pointer;
+  padding: 15px 0 15px 0;
+  border: 1px solid #dfe5ec;
+  border-right: none;
+  user-select: none;
+}
+
+.sort-group .sort-group__item:first-child label {
+  border-radius: 6px 0 0 6px;
+}
+.sort-group .sort-group__item:last-child label {
+  border-radius: 0 6px 6px 0;
+  border-right: 1px solid #dfe5ec;
+}
+
+/* Checked */
+.sort-group input[type='radio']:checked + label {
+  background: #42a5f5;
+  color: #fff;
+}
