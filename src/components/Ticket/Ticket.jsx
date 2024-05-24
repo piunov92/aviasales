@@ -2,7 +2,6 @@ import TicketData from '../TicketData/TicketData'
 import style from './Ticket.module.scss'
 
 function Ticket() {
-  // console.log(style)
   return (
     <div className={style.ticket}>
       <div className={style.ticket__header}>
@@ -12,7 +11,6 @@ function Ticket() {
       <div className={style.ticket__content}>
         <TicketData />
         <TicketData />
-        {/* <div className={style['ticket__content--fly-back']}>fly-direction back</div> */}
       </div>
     </div>
   )

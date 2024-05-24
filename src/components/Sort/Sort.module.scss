@@ -47,6 +47,15 @@ $mobile-L: 533px;
     border: 1px solid #dfe5ec;
     user-select: none;
     white-space: nowrap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #4a4a4a;
+
     @media screen and (min-width: $mobile-L) {
       border-right: none;
     }

@@ -14,7 +14,7 @@ function Sort() {
             console.log('radio-1')
           }}
         />
-        <label htmlFor='radio-1'>САМЫЙ ДЕШЕВЫЙ</label>
+        <label htmlFor='radio-1'>Самый дешевый</label>
       </div>
       <div className={style['sort-group__item']}>
         <input
@@ -26,7 +26,7 @@ function Sort() {
             console.log('radio-2')
           }}
         />
-        <label htmlFor='radio-2'>САМЫЙ БЫСТРЫЙ</label>
+        <label htmlFor='radio-2'>Самый быстрый</label>
       </div>
       <div className={style['sort-group__item']}>
         <input
@@ -38,7 +38,7 @@ function Sort() {
             console.log('radio-3')
           }}
         />
-        <label htmlFor='radio-3'>ОПТИМАЛЬНЫЙ</label>
+        <label htmlFor='radio-3'>Оптимальный</label>
       </div>
     </div>
   )
